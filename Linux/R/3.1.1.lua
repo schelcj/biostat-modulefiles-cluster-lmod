@@ -7,7 +7,7 @@ whatis("Vendor: http://www.r-project.org/")
 whatis("Licenses: N/A")
 
 local app     = "R"
-local version = "3.1.0"
+local version = "3.1.1"
 local modroot = pathJoin("/home/software/trusty", app, version)
 
 conflict(app)
