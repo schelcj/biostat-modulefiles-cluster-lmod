@@ -7,7 +7,7 @@ whatis("Vendor: https://computing.llnl.gov/linux/slurm/")
 whatis("Licenses: N/A")
 
 local app     = "slurm"
-local version = "14.03.3-2"
+local version = "14.03.6"
 local modroot = pathJoin("/home/software/trusty", app, version)
 
 conflict(app)
