@@ -8,7 +8,7 @@ whatis("Licenses: N/A")
 
 local app     = "slurm"
 local version = "14.03.6"
-local modroot = pathJoin("/home/software/trusty", app, version)
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE"), app, version)
 
 conflict(app)
 

@@ -8,7 +8,7 @@ whatis("Licenses: N/A")
 
 local app     = "biostat"
 local version = "1.0"
-local modroot = pathJoin("/home/software", app)
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE_BASE"), app)
 
 conflict(app)
 

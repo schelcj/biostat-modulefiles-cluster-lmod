@@ -7,8 +7,8 @@ whatis("Vendor: http://www.sas.com/")
 whatis("Licenses: unlimited")
 
 local app     = "SAS"
-local version = "9.2"
-local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE_BASE"), app)
+local version = "9.3"
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE_BASE"), "lucid", app, version)
 
 conflict(app)
 

@@ -8,7 +8,7 @@ whatis("License: http://www.open-mpi.org/community/license.php")
 
 local app     = "openmpi"
 local version = "1.8.1"
-local modroot = pathJoin("/home/software/trusty", app, version)
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE"), app, version)
 
 conflict(app)
 

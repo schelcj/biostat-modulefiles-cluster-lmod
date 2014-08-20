@@ -8,7 +8,7 @@ whatis("Licenses: http://www.opensource.org/licenses/bsd-license.php")
 
 local app     = "hwloc"
 local version = "1.9"
-local modroot = pathJoin("/home/software/trusty", app, version)
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE"), app, version)
 
 conflict(app)
 

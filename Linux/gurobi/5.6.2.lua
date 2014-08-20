@@ -1,13 +1,14 @@
 help([[
+The Gurobi Optimizer is a state-of-the-art solver for linear programming (LP), quadratic programming (QP) and mixed-integer programming (MILP and MIQP). It was designed from the ground up to exploit modern multi-core processors.
 ]])
 
-whatis("Description: ")
-whatis("Vendor: ")
-whatis("Licenses: ")
+whatis("Description: The Gurobi Optimizer is a state-of-the-art solver for linear programming (LP), quadratic programming (QP) and mixed-integer programming (MILP and MIQP). It was designed from the ground up to exploit modern multi-core processors.")
+whatis("Vendor: http://www.gurobi.com/")
+whatis("Licenses: N/A")
 
 local app     = "gurobi"
 local version = "5.6.2"
-local modroot = pathJoin("/home/software/trusty", app, version)
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE"), app, version)
 
 conflict(app)
 
