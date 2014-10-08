@@ -6,9 +6,9 @@ whatis("Description: SAS Statistical Analysis package")
 whatis("Vendor: http://www.sas.com/")
 whatis("Licenses: unlimited")
 
-local app     = "SAS"
+local app     = "sas"
 local version = "9.2"
-local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE_BASE"), app)
+local modroot = pathJoin(os.getenv("BIOSTAT_SOFTWARE"), app, version)
 
 conflict(app)
 
