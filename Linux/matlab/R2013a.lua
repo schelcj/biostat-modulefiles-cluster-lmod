@@ -27,5 +27,5 @@ prepend_path("LD_LIBRARY_PATH", pathJoin(modroot, "bin/glnxa64"))
 
 LmodMessage("There are a limited number of licenses available for matlab.")
 LmodMessage("You must request a license with your job with the --license option.\n")
-LmodMessage("\t\t#SBACH --license=matlab\n")
+LmodMessage("\t\t#SBATCH --license=matlab\n")
 LmodMessage("That will request one license for matlab for the duration of your job.")
